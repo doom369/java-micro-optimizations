@@ -9,6 +9,6 @@ Benchmarks for series of articles "Micro optimizations in Java."
 - ["".equals(s) vs s.isEmpty()](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/EmptyStringEquals.java)  
 - [s.equals("/") vs oneCharEquals('/')](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/EqualChar.java)
 
-Micro optimizations in Java. String.equalsIgnoreCase() benchmarks:
+[Micro optimizations in Java. String.equalsIgnoreCase()](https://medium.com/@ddumanskiy/micro-optimizations-in-java-string-equalsignorecase-ea25dfb03f95?source=friends_link&sk=28001856b9085e3c927de376298323fd) benchmarks:
 - [s.equalsIgnoreCase() vs s.equals(s.toLowerCase())](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/EqualsIgnoreCase.java#L28)
 - [s.toLowerCase().startsWith() vs s.regionMatches()](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/StartsWith.java#L22)

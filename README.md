@@ -16,3 +16,8 @@ Benchmarks for series of articles "Micro optimizations in Java."
 [Micro optimizations in Java. Good, nice and slow Enum](https://medium.com/javarevisited/micro-optimizations-in-java-good-nice-and-slow-enum-261e6f77bd2e?source=friends_link&sk=2efd362f40b01c300b09f425d57a9bb0) benchmarks:
 - [Enum.valueOf vs switch](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/EnumValueOf.java#L22)
 - [Enum.values() vs cache variable](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/EnumValues.java#L22)
+
+[Micro optimizations in Java. String.replaceAll](https://medium.com/@ddumanskiy/micro-optimizations-in-java-string-replaceall-c6d0edf2ef6?source=friends_link&sk=54fe79994e5a8eea966c905e338eb744) benchmarks:
+- [String.replaceAll vs String.replace](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/ReplaceAll.java#L22)
+- [String.replace(String, String) vs String.replace(char, char)](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/ReplaceCustom.java#L23)
+- [String.replace(String, String) vs StringUtils.remove(String, char)](https://github.com/doom369/java-micro-optimizations/blob/master/src/test/java/string/RemoveChar.java)

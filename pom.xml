@@ -12,7 +12,7 @@
         <jmh-core.version>1.25</jmh-core.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <commons-lang3.version>3.11</commons-lang3.version>
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <lombok.version>1.18.12</lombok.version>
     </properties>
 
